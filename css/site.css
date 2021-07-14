@@ -1,0 +1,53 @@
+:root{
+    --color-on: #3949ab;
+    --color-off: #000;
+    --color-valid: #8bc34a;
+    --color-invalid: #e57373;
+}
+
+
+.card{
+    max-width: 400px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.card-title{
+    padding-bottom: 20px;
+}
+  /* label color */
+  .input-field label {
+    color: var(--color-off);
+  }
+  /* label focus color */
+  .input-field input:focus + label {
+    color: var(--color-on) !important;
+  }
+  /* label underline focus color */
+  .input-field input:focus {
+    border-bottom: 1px solid var(--color-on) !important;
+    box-shadow: 0 0 0 0 var(--color-on) !important;
+  }
+  /* icon prefix focus color */
+  .input-field .prefix.active {
+    color: var(--color-on);
+  }
+  /* valid color */
+  /* .input-field input[type=text].valid + label {
+    color: var(--color-valid) !important;
+  } */
+  .input-field input.valid {
+    border-bottom: 1px solid var(--color-valid);
+    box-shadow: 0 0 0 0 var(--color-valid);
+  }
+  /* invalid color */
+  /* .input-field input.invalid + label {
+    color: var(--color-invalid) !important;
+  } */
+  .input-field input.invalid {
+    border-bottom: 1px solid var(--color-invalid);
+    box-shadow: 0 0 0 0 var(--color-invalid);
+  }
+img{
+    padding-top: 80px;
+}
