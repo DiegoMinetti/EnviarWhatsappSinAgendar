@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whatsapp // Enviar Mensaje sin Agendar</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="/css/site.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col s12 center-align">
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Mensaje de Whatsapp<br />sin Agendar</span>
+                        <form id="enviarMensaje" action="" method="GET">
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix">phone</i>
+                                <input type="tel" name="numero" id="numero" placeholder="1155554444" class="numero validate" pattern="[0-9]{8,10}" required title="el telefono tiene que ser numerico de 8 a 10 digitos">
+                                <label for="numero">Numero de telefono</label>
+                            </div>
+                            <button type="submit" class="btn indigo darken-1 waves-effect">Enviar Mensaje</button>
+                        </form>
+                    </div>
+                  </div>
+            </div>
+            <div class="col s12 center-align">
+                <img src="/images/Logo_AzulGrisOscuro.png" width="200px" alt="50px">
+            </div>
+        </div>
+    </div>
+    <script src="/js/site.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
