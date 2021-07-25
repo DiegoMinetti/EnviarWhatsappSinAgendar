@@ -51,5 +51,8 @@
     box-shadow: 0 0 0 0 var(--color-invalid);
 }
 img{
-    padding-top: 80px;
+    padding-top: 0px;
 }        
+.by {
+    padding-top: 80px;
+}
