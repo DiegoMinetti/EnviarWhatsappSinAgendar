@@ -1,4 +1,4 @@
-const cacheName = "wsap-sinAgendar-v1.121";
+const cacheName = "wsap-sinAgendar-v1.127";
 const staticAssets = [
   "/",
   "/index.html",

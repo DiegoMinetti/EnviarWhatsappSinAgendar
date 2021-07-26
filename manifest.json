@@ -1,10 +1,10 @@
 {
     "name": "WSUP_FL",
     "short_name": "WSUP_FL",
-    "start_url": "index.html",
+    "start_url": "/",
     "display": "standalone",
     "background_color": "#000",
-    "theme_color": "#fff",
+    "theme_color": "#000",
     "orientation": "portrait",
     "icons": [
         {
